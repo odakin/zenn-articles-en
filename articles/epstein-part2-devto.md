@@ -1,7 +1,7 @@
 ---
 title: 'AI Fears ''Conspiracy'' on Epstein-Mossad (II: The Leverage)'
 tags: 'ai, chatgpt, claude, conspiracy'
-published: false
+published: true
 description: 'In Part 2, Claude peer-reviews ChatGPT''s Epstein report. Through five rounds of shuttle review, the conclusion shifts five times—same evidence, different posture.'
 id: 3376251
 ---

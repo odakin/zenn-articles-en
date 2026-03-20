@@ -1,7 +1,7 @@
 ---
 title: 'AI Fears ''Conspiracy'' on Epstein-Mossad (I: Coincidence?)'
 tags: 'ai, chatgpt, claude, conspiracy'
-published: false
+published: true
 description: 'A three-way dialogue where ChatGPT, a human, and Claude debate the Epstein-Mossad theory—and ChatGPT''s conclusion shifts five times without any new evidence.'
 id: 3376252
 ---
