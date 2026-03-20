@@ -1,18 +1,22 @@
 # zenn-articles-en
 
-English article sources. Originally for Zenn.dev, now targeting **dev.to** (Zenn's 1-GitHub-account-per-Zenn-account constraint prevents multi-account setup).
+English article sources. Published on **dev.to** ([@odakin](https://dev.to/odakin)).
+
+Each article has two versions:
+- `*-en.md` — Zenn format (source of truth, local preview with `npx zenn preview`)
+- `*-devto.md` — dev.to format (for posting)
 
 ## Articles
 
-| Slug | Title | Status |
-|------|-------|--------|
-| `36225f978acbaa` | AIs Distort Evidence to Avoid "Conspiracy" (Part 1) | Published (Zenn) |
-| `90ba7a1bdeeed7` | AIs Distort Evidence to Avoid "Conspiracy" (Part 2) | Published (Zenn) |
-| `claude-code-multi-project-en` | Solving Claude Code's Memory Loss | Draft |
+| Article | Zenn source | dev.to version | Status |
+|---------|-------------|----------------|--------|
+| AIs Distort Evidence (Part 1) | `36225f978acbaa.md` | — | Published (Zenn) |
+| AIs Distort Evidence (Part 2) | `90ba7a1bdeeed7.md` | — | Published (Zenn) |
+| Solving Claude Code's Memory Loss | `claude-code-multi-project-en.md` | `claude-code-multi-project-devto.md` | Draft |
 
 ## TODO
 
-- [ ] Create dev.to account
+- [x] ~~Create dev.to account~~
 - [ ] Post "Solving Claude Code's Memory Loss" to dev.to
-- [ ] Cross-post Epstein articles to dev.to (already published on Zenn under `odakin`)
-- [ ] Rename repo if needed (no longer Zenn-specific)
+- [ ] Cross-post Epstein articles to dev.to
+- [ ] Consider renaming repo (no longer Zenn-specific)
