@@ -13,9 +13,11 @@
 zenn-articles-en/
 ├── CLAUDE.md        # このファイル
 ├── README.md        # 記事一覧・使い方
+├── .github/workflows/
+│   └── publish-devto.yml  # push → dev.to 自動投稿
 ├── articles/        # 記事ソース
 │   ├── *-en.md      # Zenn 形式（原本）
-│   └── *-devto.md   # dev.to 形式（投稿用）
+│   └── *-devto.md   # dev.to 形式（投稿用、GitHub Actions で自動投稿）
 ├── books/           # 未使用
 ├── package.json     # zenn-cli 依存（プレビュー用）
 └── .gitignore
@@ -39,14 +41,12 @@ zenn-articles-en/
 | `# 見出し` | `## 見出し` | dev.to は `#` をタイトルに使うため、本文は `##` 始まり |
 | `https://github.com/user/repo` | `{% github user/repo %}` | GitHub embed |
 
-### dev.to 投稿（API）
-```bash
-curl -X POST https://dev.to/api/articles \
-  -H "api-key: $DEVTO_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"article": {"body_markdown": "...", "published": false}}'
-```
-API キー: https://dev.to/settings/extensions
+### dev.to 投稿（自動）
+- `articles/*-devto.md` を変更して push → GitHub Actions が自動で dev.to に投稿
+- `published: false` → ドラフト、`published: true` → 公開
+- アクション: `sinedied/publish-devto@v2`
+- API キー: GitHub secret `DEVTO_API_KEY` に登録済み
+- 初回投稿後、アクションが frontmatter に `id` フィールドを自動追加（記事追跡用）
 
 ## 運用
 - ローカルプレビュー: `npx zenn preview` → http://localhost:8000（Zenn 形式のみ）
