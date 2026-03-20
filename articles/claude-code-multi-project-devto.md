@@ -1,10 +1,11 @@
 ---
-title: "Solving Claude Code's Memory Loss ― Multi-Project Design Patterns"
+title: Solving Claude Code's Memory Loss ― Multi-Project Design Patterns
 published: true
-description: "Design patterns for running 10+ projects with Claude Code without losing progress to context compression."
-tags: ai, productivity, devtools, claude
-canonical_url: https://github.com/odakin/claude-config
+description: Design patterns for running 10+ projects with Claude Code without losing progress to context compression.
+tags: 'ai, productivity, devtools, claude'
+canonical_url: 'https://github.com/odakin/claude-config'
 id: 3376162
+date: '2026-03-20T10:42:13Z'
 ---
 
 If you've used Claude Code seriously, you've hit this wall:
