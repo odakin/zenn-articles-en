@@ -13,3 +13,5 @@ Each article has two versions:
 | AIs Distort Evidence (Part 1) | `epstein-part1-devto.md` | Published |
 | AIs Distort Evidence (Part 2) | `epstein-part2-devto.md` | Published |
 | Solving Claude Code's Memory Loss | `claude-code-multi-project-devto.md` | Published |
+| 82 Regex Replacements to Parse 6,933 Time Formats | `hours-parser-hell-devto.md` | Published |
+| 7 Phrases That Make Claude Code Reliable | `claude-code-seven-spells-devto.md` | Published |
