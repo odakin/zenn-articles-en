@@ -26,7 +26,7 @@ devto-articles/
 ## 記事管理ワークフロー
 1. Zenn 形式で原稿を書く（`articles/<slug>-en.md`）
 2. dev.to 形式に変換（`articles/<slug>-devto.md`）
-3. dev.to に投稿（手動コピペ or API）
+3. commit + push → GitHub Actions が自動で dev.to に投稿
 
 ### Zenn → dev.to 変換ルール
 | Zenn | dev.to | 対応 |
@@ -47,6 +47,11 @@ devto-articles/
 - アクション: `sinedied/publish-devto@v2`
 - API キー: GitHub secret `DEVTO_API_KEY` に登録済み
 - 初回投稿後、アクションが frontmatter に `id` フィールドを自動追加（記事追跡用）
+
+## dev.to 上での確認・コメント管理
+- プロフィール: `dev.to/odakin`（全記事一覧）
+- 記事URL: dev.to のslugはタイトルから自動生成（ファイル名とは異なる）。frontmatter の `id` → `dev.to/api/articles/{id}` で `url` を取得可能
+- コメント管理: ブラウザで記事を開いて対応
 
 ## 運用
 - ローカルプレビュー: `npx zenn preview` → http://localhost:8000（Zenn 形式のみ）
