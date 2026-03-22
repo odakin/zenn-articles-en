@@ -1,7 +1,7 @@
 ---
 title: ChatGPT Thought 'Suspicious' but Wrote 'Unlikely'
 tags: 'ai, chatgpt, llm, prompt'
-published: false
+published: true
 description: 'Same evidence, zero new facts, five conclusion shifts. I caught ChatGPT censoring its own reasoning in real time.'
 id: 3382122
 ---
