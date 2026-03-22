@@ -84,4 +84,4 @@ And the structure is not unique to Epstein. **Anywhere power concentrates and mu
 > [Part 1](https://dev.to/odakin/ai-fears-conspiracy-on-epstein-mossad-i-coincidence-1643) | [Part 2](https://dev.to/odakin/ai-fears-conspiracy-on-epstein-mossad-ii-the-leverage-3eag) | [Japanese](https://zenn.dev/odakin/articles/64d591c7e2be9f/)
 >
 > **Digests**
-> [AI Evasion Patterns](https://dev.to/odakin/chatgpt-thought-suspicious-but-wrote-unlikely-4p1o) | [Who Protected Epstein?](https://dev.to/odakin/who-protected-epstein-the-complicity-structure-temp) (this article)
+> [AI Evasion Patterns](https://dev.to/odakin/chatgpt-thought-suspicious-but-wrote-unlikely-4p1o) | [Who Protected Epstein?](https://dev.to/odakin/who-protected-epstein-the-complicity-structure-30pf) (this article)
