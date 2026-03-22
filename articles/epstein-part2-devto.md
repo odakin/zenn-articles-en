@@ -461,4 +461,4 @@ That said, the closing again writes "without retreating into smoke metaphors" an
 > [Japanese](https://zenn.dev/odakin/articles/45c18ff49d5ddc/)
 >
 > **Digest** — short standalone version
-> [AI Evasion Patterns (dev.to)](https://dev.to/odakin/chatgpt-thought-suspicious-but-wrote-unlikely-temp)
+> [AI Evasion Patterns (dev.to)](https://dev.to/odakin/chatgpt-thought-suspicious-but-wrote-unlikely-4p1o)
