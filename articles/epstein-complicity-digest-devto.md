@@ -1,7 +1,7 @@
 ---
 title: Who Protected Epstein? The Complicity Structure
 tags: 'ai, chatgpt, conspiracy, analysis'
-published: false
+published: true
 description: Neither 'the system failed' nor 'Mossad spy' fits the evidence. A third reading emerges from making two AIs debate five rounds.
 id: 3382135
 ---
