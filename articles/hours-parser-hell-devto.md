@@ -285,6 +285,8 @@ Unparseable pharmacies show their raw data. Users can read Japanese. It's fine.
 
 ---
 
+> **Disclosure:** The regex patterns and parser code were generated with [Claude Code](https://claude.ai/claude-code) and refined through iterative testing against the actual dataset. The design decisions, coverage targets, and "when to stop" judgments described in this article are mine.
+
 ## Repository
 
 {% github odakin/mhlw-ec-pharmacy-finder %}
