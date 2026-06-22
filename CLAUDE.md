@@ -24,7 +24,7 @@ devto-articles/
 ```
 
 ## 記事管理ワークフロー
-1. Zenn 形式で原稿を書く（`articles/<slug>-en.md`）
+1. Zenn 形式で原稿を書く（`articles/<slug>-en.md`） — Zenn 記法仕様・GFM 執筆の落とし穴 (bold × 全角句読点 等) は `~/Claude/claude-config/conventions/zenn.md` が正本
 2. dev.to 形式に変換（`articles/<slug>-devto.md`）
 3. commit + push → GitHub Actions が自動で dev.to に投稿
 
